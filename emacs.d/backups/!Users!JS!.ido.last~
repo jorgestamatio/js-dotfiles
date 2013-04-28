@@ -1,0 +1,30 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/JS/Sites/" . "emacs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/JS/Sites/emacs/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/JS/" (20861 30708 0 0) "tmp/" "Sites/" "Public/" "Pictures/" "node-latest-install/" "Music/" "Movies/" "local/" "Library/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".Trash/" ".thumbnails/" ".ssh/" ".recentf" ".Private/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".lesshst" ".ido.last" ".gnupg/" ".gitignore" ".gitconfig" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".dotfiles/" ".cups/" ".codeintel/" ".CFUserTextEncoding" ".bower/" ".bashrc" ".bash_profile" ".bash_history" ".adobe/" "../" "./")
+
+ ("/Users/JS/Sites/emacs/" (20861 19128 0 0) "test.html~" "test.html" "style.css" "commands" "../" "./")
+
+ ("/Users/JS/Sites/great/" (20839 4380 0 0) "tasks/" "old/" "euro/" "dev/" ".DS_Store" "../" "./")
+
+ ("/Users/JS/Sites/" (20861 7530 0 0) "templates/" "ressources/" "random/" "projects/" "JS/" "hotel/" "great/" "frameworks/" "emacs/" "ecoluum/" "buzz/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
