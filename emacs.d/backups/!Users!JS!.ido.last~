@@ -2,22 +2,33 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/JS/.oh-my-zsh/" . "tools/")
+ ("/Users/JS/" . ".oh-my-zsh/")
+ ("/Users/" . "JS/")
  ("/Users/JS/Sites/" . "emacs/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/JS/.oh-my-zsh/"
  "/Users/JS/Sites/emacs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "oh-my-zsh.sh"
  "test.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/JS/" (20861 30708 0 0) "tmp/" "Sites/" "Public/" "Pictures/" "node-latest-install/" "Music/" "Movies/" "local/" "Library/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".Trash/" ".thumbnails/" ".ssh/" ".recentf" ".Private/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".lesshst" ".ido.last" ".gnupg/" ".gitignore" ".gitconfig" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".dotfiles/" ".cups/" ".codeintel/" ".CFUserTextEncoding" ".bower/" ".bashrc" ".bash_profile" ".bash_history" ".adobe/" "../" "./")
+ ("/Users/JS/.oh-my-zsh/tools/" (20857 58702 0 0) "upgrade.sh" "uninstall.sh" "theme_chooser.sh" "require_tool.sh" "install.sh" "check_for_upgrade.sh" "../" "./")
+
+ ("/Users/JS/.oh-my-zsh/" (20857 58702 0 0) "tools/" "themes/" "templates/" "README.textile" "plugins/" "oh-my-zsh.sh" "MIT-LICENSE.txt" "log/" "lib/" "custom/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/" (20629 32582 0 0) "Shared/" "JS/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/JS/" (20861 44391 0 0) "tmp/" "Sites/" "Public/" "Pictures/" "node-latest-install/" "Music/" "Movies/" "local/" "Library/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".Trash/" ".thumbnails/" ".ssh/" ".recentf" ".Private/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".lesshst" ".ido.last" ".gnupg/" ".gitignore" ".gitconfig" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".dotfiles/" ".cups/" ".codeintel/" ".CFUserTextEncoding" ".bower/" ".bashrc" ".bash_profile" ".bash_history" ".adobe/" "../" "./")
 
  ("/Users/JS/Sites/emacs/" (20861 19128 0 0) "test.html~" "test.html" "style.css" "commands" "../" "./")
 
