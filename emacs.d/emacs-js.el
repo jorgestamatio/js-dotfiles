@@ -3,7 +3,8 @@
 ;;(setq custom-file "~/.emacs.d/rmm5t/custom.el")
 ;;(load custom-file 'noerror)
 
-(load "js-packages/better-defaults.el")
+(load "js-packages/better-defaults")
+(load "js-packages/hackernews")
 ;;(load "rmm5t/theme")
 ;;(load "rmm5t/env")
 ;;(load "rmm5t/global")
