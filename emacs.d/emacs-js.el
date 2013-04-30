@@ -4,7 +4,7 @@
 ;;(load custom-file 'noerror)
 
 (load "js-packages/better-defaults")
-(load "js-packages/hackernews")
+;;(load "js-packages/hackernews")
 ;;(load "js-packages/theme")
 ;;(load "js-packages/env")
 (load "js-packages/global")
