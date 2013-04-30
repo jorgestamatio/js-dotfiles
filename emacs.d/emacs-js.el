@@ -1,8 +1,9 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-(setq custom-file "~/.emacs.d/rmm5t/custom.el")
-(load custom-file 'noerror)
+;;(setq custom-file "~/.emacs.d/rmm5t/custom.el")
+;;(load custom-file 'noerror)
 
+(load "js-packages/better-defaults.el")
 ;;(load "rmm5t/theme")
 ;;(load "rmm5t/env")
 ;;(load "rmm5t/global")
