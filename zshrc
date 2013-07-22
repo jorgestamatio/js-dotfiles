@@ -12,6 +12,10 @@ alias zshconfig="emacs ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ohmyzsh="subl -n ~/.oh-my-zsh"
 
+# Fix arrow character in vim nerdtree
+export LC_ALL=en_US.utf-8 
+export LANG="$LC_ALL" 
+
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
