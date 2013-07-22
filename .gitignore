@@ -4,3 +4,8 @@ emacs.d/places
 emacs.d/auto-save-list
 emacs.d/backups
 emacs.d/backups/*
+
+vim/backups/*
+vim/swaps/*
+vim/undo/*
+
