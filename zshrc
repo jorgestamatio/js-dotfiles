@@ -64,4 +64,3 @@ export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/mysql
 #Backup to Google Drive
 alias buSitestoGD="rsync -avzu /Users/JS/Sites/ '/Users/JS/Google Drive/Sites/'"
 
-alias hours="~/Documents/Great\ Escape/hours.txt"
