@@ -1,11 +1,13 @@
 .DS_Store
 
+aliases_local
+
 emacs.d/places
 emacs.d/auto-save-list
 emacs.d/backups
 emacs.d/backups/*
 
 vim/backups/*
-vim/swaps/*
+vim/swaps/*.swp
 vim/undo/*
 

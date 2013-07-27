@@ -8,9 +8,9 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="js"
 
 # Example aliases
-alias zshconfig="emacs ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ohmyzsh="subl -n ~/.oh-my-zsh"
+source $HOME/.aliases
+source $HOME/.aliases_local
+
 
 # Fix arrow character in vim nerdtree
 export LC_ALL=en_US.utf-8 
