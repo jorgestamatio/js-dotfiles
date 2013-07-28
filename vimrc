@@ -7,7 +7,7 @@ set nocompatible
 set ttyfast
 
 "============= ColorScheme ============="
-colorscheme molokai
+colorscheme distinguished
 set background=dark
 
 " Better command-line completion
