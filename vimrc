@@ -60,6 +60,16 @@ set softtabstop=2
 set expandtab
 
 
+" Folding
+set foldmethod=indent
+set foldlevel=99
+
+
+" Snipmate
+" Enable html snippets in php files
+au BufRead,BufNewFile *.php set ft=php.html
+
+
 " Centralize backups, swapfiles and undo history
 set backupdir=~/dotfiles/vim/backups
 set directory=~/dotfiles/vim/swaps
@@ -70,5 +80,7 @@ endif
 
 "=========== Mappings =========="
 "
-
-
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
