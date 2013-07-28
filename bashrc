@@ -1,9 +1,9 @@
 [ -n "$PS1" ] && source ~/dotfiles/bash_profile
 
 if [ -f ~/.aliases ]; then
-  . ~/.aliases
+  . ~/dotfiles/aliases
 fi
 
 if [ -f ~/.aliases_local ]; then
-  . ~/.aliases_local
+  . ~/dotfiles/aliases_local
 fi

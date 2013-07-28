@@ -61,6 +61,3 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/mysql/bin
 
 
-#Backup to Google Drive
-alias buSitestoGD="rsync -avzu /Users/JS/Sites/ '/Users/JS/Google Drive/Sites/'"
-
