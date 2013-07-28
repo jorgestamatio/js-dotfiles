@@ -69,6 +69,8 @@ set foldlevel=99
 " Enable html snippets in php files
 au BufRead,BufNewFile *.php set ft=php.html
 
+" Tab completion
+let g:SuperTabDefaultCompletionType = "context"
 
 " Centralize backups, swapfiles and undo history
 set backupdir=~/dotfiles/vim/backups
