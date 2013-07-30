@@ -2,11 +2,13 @@
 
 # Shortcut to this file 
 alias aliasconfig="vim ~/dotfiles/aliases"
-alias aliaslocalconfig="vim ~/dotfiles/aliases"
+alias aliaslocalconfig="vim ~/dotfiles/aliases_local"
 alias zshconfig="vim ~/dotfiles/zshrc"
 
 # Navigation aliases
 alias ..="cd .."
+alias c='cd'
+alias l='ls'
 
 #alias to sites-available
 alias sites-available="cd /etc/apache2/sites-available"
@@ -15,5 +17,3 @@ alias sites-available="cd /etc/apache2/sites-available"
 # Restart server
 alias restarserver="sudo service apache2 restart"
 
-# Alias to sites
-alias js="cd ~/www/jstamatio"
