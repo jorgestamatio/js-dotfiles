@@ -82,6 +82,10 @@ endif
 
 "=========== Mappings =========="
 "
+"Fix command-t esc
+let g:CommandTCancelMap=['<ESC>','<C-c>']
+
+
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 map <c-j> <c-w>j
