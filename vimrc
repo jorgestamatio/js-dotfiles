@@ -7,7 +7,7 @@ set nocompatible
 set ttyfast
 
 "============= ColorScheme ============="
-colorscheme distinguished
+colorscheme skittles_berry
 set background=dark
 
 " Better command-line completion
