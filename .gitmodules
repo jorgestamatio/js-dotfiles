@@ -19,6 +19,12 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
+<<<<<<< HEAD
 [submodule "vim/bundle/threesome"]
 	path = vim/bundle/threesome
 	url = https://github.com/sjl/threesome.vim.git
+=======
+[submodule "vim/bundle/vim-livereload"]
+	path = vim/bundle/vim-livereload
+	url = https://github.com/flomotlik/vim-livereload.git
+>>>>>>> 3649de4c7a42c6c3d833accac6a906364ca3132c
