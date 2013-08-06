@@ -1,8 +1,8 @@
 [user]
-  name = %%GITNAME%%
-  email = %%GITEMAIL%%
+  name = Jorge Stamatio
+  email = jorge.stamatio@gmail.com
 [diff]
-  external = git_diff_wrapper
+  external = ~/dotfiles/bin/git_diff_wrapper
 [pager]
   diff =
 [color]
