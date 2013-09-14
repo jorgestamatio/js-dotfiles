@@ -17,3 +17,5 @@
     cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
     trustExitCode = true
 # vim: set et :
+[core]
+	excludesfile = /Users/JS/.gitignore
