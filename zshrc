@@ -47,7 +47,7 @@ export LANG="$LC_ALL"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-plugins=(git rsync)
+plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
