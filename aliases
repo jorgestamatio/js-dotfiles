@@ -3,7 +3,7 @@
 # Shortcut to this file 
 alias aliasconfig="vim ~/dotfiles/aliases"
 alias aliaslocalconfig="vim ~/dotfiles/aliases_local"
-alias zshconfig="vim ~/dotfiles/zshrc"
+alias bashconf="vim ~/dotfiles/bashrc"
 
 # Navigation aliases
 alias ..="cd .."
