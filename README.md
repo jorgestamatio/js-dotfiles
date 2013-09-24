@@ -6,11 +6,17 @@
 
     git clone https://github.com/jorgestamatio/js-dotfiles.git dotfiles
 
-    git cd dotfiles
+## Initialize the submodules
+
+
+    cd dotfiles
 
     git submodule init
 
     git submodule update
+
+
+## Add the symbolic links
 
     cd ~
 
