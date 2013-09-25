@@ -17,3 +17,10 @@ alias sites-available="cd /etc/apache2/sites-available"
 # Restart server
 alias restarserver="sudo service apache2 restart"
 
+
+killd () {
+for session in $(screen -ls | grep -o '[0-9]\{5\}')
+do
+screen -S "${session}" -X quit;
+done
+}
