@@ -58,6 +58,7 @@ source $ZSH/oh-my-zsh.sh
 # JS Path
 # /usr/local/bin moved before usr/bin for Homebrew to stop complaining
 # Macports moved from /opt/local to ~/macports for Homebrew to stop complaining
-export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/mysql/bin
+# export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/mysql/bin
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin
 
 
