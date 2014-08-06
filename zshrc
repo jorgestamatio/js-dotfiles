@@ -47,7 +47,7 @@ export LANG="$LC_ALL"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-plugins=(git)
+plugins=(git screen)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
@@ -60,5 +60,15 @@ source $ZSH/oh-my-zsh.sh
 # Macports moved from /opt/local to ~/macports for Homebrew to stop complaining
 # export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/mysql/bin
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin
+
+export PATH=${PATH}:/Applications/Android\ Studio.app/sdk/platform-tools:/Applications/Android\ Studio.app/sdk/tools
+
+# For PYTHON BOOTSRAP.PY FROM PECQUEUR
+export CFLAGS=-Qunused-arguments
+export CPPFLAGS=-Qunused-arguments
+
+# Needed for MySQLdb for Python
+# http://bit.ly/1jTYzxK
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 
 

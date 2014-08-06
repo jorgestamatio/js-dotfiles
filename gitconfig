@@ -11,6 +11,7 @@
   st = status -a
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
   ch = checkout -
+	d = difftool
 [merge]
     tool = threesome
 [mergetool "threesome"]
@@ -19,3 +20,12 @@
 # vim: set et :
 [core]
 	excludesfile = /Users/JS/.gitignore
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = simple
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
