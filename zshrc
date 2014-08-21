@@ -59,6 +59,9 @@ source $ZSH/oh-my-zsh.sh
 # /usr/local/bin moved before usr/bin for Homebrew to stop complaining
 # Macports moved from /opt/local to ~/macports for Homebrew to stop complaining
 # export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/mysql/bin
+
+export PATH=~/bin:/usr/local/php5/bin:$PATH
+
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin
 
 export PATH=${PATH}:/Applications/Android\ Studio.app/sdk/platform-tools:/Applications/Android\ Studio.app/sdk/tools
