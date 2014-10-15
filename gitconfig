@@ -24,7 +24,7 @@
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
 [push]
-	default = simple
+	default = current
 [diff]
 	tool = vimdiff
 [difftool]
